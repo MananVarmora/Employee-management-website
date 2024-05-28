@@ -1,0 +1,104 @@
+/* Contact.css */
+
+/* Style for the main container */
+div {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style for the page title */
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the introductory text */
+  p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the contact information section */
+  .contact-info {
+    max-width: 500px; /* Adjust the width as needed */
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  
+  }
+  
+  /* Style for contact information labels */
+  .contact-info h2 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 0;
+  }
+  
+  /* Style for contact information details */
+  .contact-info p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  /* Style for the contact form section */
+  .contact-form {
+    max-width: 500px; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f2f2f2; /* White background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow */
+  }
+  
+  /* Style for the contact form title */
+  .contact-form h2 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 0;
+  }
+  
+  /* Style for form labels */
+  .form-group label {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for form input fields */
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the submit button */
+  .submit-button {
+    background-color: #2d7484;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Style for the submit button on hover */
+  .submit-button:hover {
+    background-color: #005a8d;
+  }
+  

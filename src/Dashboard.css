@@ -1,0 +1,155 @@
+
+.login-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .register-form button:hover {
+    background-color: #0056b3;
+  }
+  /* Add this CSS to your App.css file */
+  
+  /* Style for the login button */
+  .login-button {
+    background-color: #2d7484; /* Blue color, you can change this */
+    color: #fff; /* White text color */
+    border: none;
+    border: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 2px;
+  }
+  
+  /* Style for the login form container */
+  .login-form {
+    max-width: 300px; /* Adjust the width as needed */
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #04e4f42c; /* White background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow */
+  }
+  
+  /* Style for form input fields */
+  .form-group {
+    margin-bottom: 5px;
+  }
+  
+  /* Style for form labels */
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #666;
+  }
+  .login-form h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  /* Style for form input fields */
+  .form-group input[type="text"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Add a border for the input fields */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style for the login submit button */
+  .login-submit {
+    background-color: #2d7484;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  
+  }
+  
+  /* Style for the login submit button on hover */
+  .login-submit:hover {
+    background-color: #8b949e; /* Darker blue on hover */
+  }
+  .register-button {
+    background-color: #2d7484; /* Blue color, you can change this */
+    color: #fff; /* White text color */
+    border: 5px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 2px;
+  }
+  /* Add this CSS to style the registration form */
+  .register-form {
+    max-width: 300px; /* Adjust the width as needed */
+    text-align: center;
+    margin-top: 20px;
+    background-color: #04e4f42c;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  .register-form h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .register-form .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .register-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .register-form input[type="text"],
+  .register-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .register-form button.register-submit {
+    background-color: #2d7484;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .register-form button.register-submit:hover {
+    background-color: #005a8d;
+  }
+  
+  

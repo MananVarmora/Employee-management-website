@@ -1,0 +1,46 @@
+.horizontal-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 0;
+  width: 100%; /* Set the width to 100% to occupy the full screen width */
+  position: fixed; /* Fix the navbar at the top of the screen */
+  top: 0; /* Position it at the top */
+  left: 0; /* Position it at the left edge */
+}
+
+.navbar-button {
+  background-color: #444;
+  color: white;
+  border: none;
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.navbar-button.active {
+  background-color: #555;
+}
+
+.content {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style for the Log Out button */
+.logout-button {
+  background-color: #2d7484;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for the Log Out button on hover */
+.logout-button:hover {
+  background-color: #cc0000;
+}
+
+
